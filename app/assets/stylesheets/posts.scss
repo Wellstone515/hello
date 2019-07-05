@@ -1,3 +1,40 @@
-// Place all the styles related to the posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.btn {
+  background-color: #fbafaf;
+  border-bottom: solid 2px #ca2c2c;
+  color: #fff;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+/* activeクラス */
+.active {
+  background-color: #ff5555;
+}
+
+
+.box {
+  margin:50px;
+  width: 200px;
+}
+
+.box_square {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.swich {
+  background-color: gray;
+  border: solid 1px black;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+}
