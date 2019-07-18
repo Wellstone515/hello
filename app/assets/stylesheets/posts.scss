@@ -1,40 +1,43 @@
-.btn {
-  background-color: #fbafaf;
-  border-bottom: solid 2px #ca2c2c;
-  color: #fff;
-  display: inline-block;
-  font-size: 32px;
-  font-weight: bold;
-  margin-right: 15px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-/* activeクラス */
-.active {
-  background-color: #ff5555;
-}
-
-
-.box {
-  margin:50px;
-  width: 200px;
-}
-
-.box_square {
-  height: 200px;
+.post-index-main {
   width: 100%;
-  margin-bottom: 10px;
-  background-color: red;
+  height: 100vh;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding: 30px;
+  &__body {
+    margin: 10px 0;
+    &__footer {
+      padding: 3px 20px !important;
+      &__name {
+        margin-left: 10px;
+        font-size: 13px;
+      }
+      &__date {
+        margin: 0 20px 0 10px;
+        font-size: 13px;
+      }
+      &__icon {
+        margin-left: 10px;
+      }
+      &__icon-heart {
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      &__icon-count {
+        margin-right: 10px;
+      }
+    }
+  }
 }
 
-.blue {
-  background-color: blue;
+.post-index-grid {
+  width: 65%;
+  float: left;
 }
 
-.swich {
-  background-color: gray;
-  border: solid 1px black;
+.post-side-grid {
   width: 30%;
-  text-align: center;
-  cursor: pointer;
+  float: left;
+  margin-left: 20px;
 }
